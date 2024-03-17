@@ -1,0 +1,104 @@
+body {
+    height: 100vw;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    opacity: 1;
+    background-image:  linear-gradient(135deg, #1b1e62 25%, transparent 25%), linear-gradient(225deg, #1b1e62 25%, transparent 25%), linear-gradient(45deg, #1b1e62 25%, transparent 25%), linear-gradient(315deg, #1b1e62 25%, #ffffff 25%);
+    background-position:  25px 0, 25px 0, 0 0, 0 0;
+    background-size: 25px 25px;
+    background-repeat: repeat;
+    display: flex;
+    
+    color: #fdfdfd;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    width: 35vw;
+    margin: auto;
+    padding-inline: 24px;
+    padding-block: 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* From https://css.glass */
+    background: rgba(157, 21, 0, 0.81);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(157, 21, 0, 0.3);
+    /* From https://css.glass */
+    background: rgba(157, 21, 0, 0.81);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(157, 21, 0, 0.3);
+
+}
+
+#profile_pic {
+    border-radius: 40% 1% 40% 1%;
+    border: ridge 2px #fff;
+}
+
+.main-container h1{
+    color:rgb(20, 2, 18);
+}
+
+.social_container{
+    display: grid;
+    grid-template-columns: repeat(2, 32px);
+    column-gap: 36px;
+}
+
+.icons{
+    width: 32px;
+    height: 32px;
+    color: #1b1e62;
+    scale: 1px;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 0.7s;
+}
+
+.icons:hover{
+    color:aquamarine;
+    scale: 1.2;
+}
+
+
+.btn_contact{
+    margin-bottom: 24px;   
+    padding: 12px 24px;
+
+    border-radius: 8px;
+    background-color: #4c54eb;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+/*.contact{
+    background-color: rgb(11, 150, 76);
+}
+
+.free_cookie{
+    background-color: darkslateblue;
+}*/
+
+.um_paragrafo{
+    text-align: center;
+}
+
+.btn_contact:hover{
+    background-color: #1b1e62;
+    color: white;
+    transform: scale(1.1);
+}
